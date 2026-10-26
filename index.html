@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CampusSwap · Buy, sell and swap with students on your campus</title>
+  <meta name="description" content="Textbooks, notes, laptops and more, bought, sold and swapped between students on your campus. No shipping, no fees.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Figtree:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/layout/landing.css">
+  <link rel="stylesheet" href="assets/css/pages/landing/home.css">
+</head>
+<body>
+  <main id="top">
+    <section class="hero sec" aria-labelledby="hero-title">
+      <div class="wrap hero-inner">
+        <p class="hero-badge">
+          <span class="hero-badge-dot" aria-hidden="true"></span>
+          For students, by students · free to post
+        </p>
+
+        <h1 id="hero-title">Find what you need for the semester, from students on your campus.</h1>
+
+        <p class="hero-lead hero-lead-long">Textbooks, lecture notes, calculators, laptops, lamps and bikes — bought, sold and swapped between students. No shipping, no fees, just meet up on campus.</p>
+        <p class="hero-lead hero-lead-short">Bought, sold and swapped between students. No shipping, no fees — just meet up on campus.</p>
+
+        <form class="hero-search" action="#browse" method="get" role="search">
+          <label class="sr" for="hero-q">Search listings</label>
+          <span class="hero-search-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="7"></circle>
+              <path d="M20 20l-3.2-3.2"></path>
+            </svg>
+          </span>
+          <input id="hero-q" name="q" type="search" placeholder='Try "TI-84", "mini fridge" or "Calculus notes"' autocomplete="off">
+          <button class="btn btn-p hero-search-submit" type="submit">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="7"></circle>
+              <path d="M20 20l-3.2-3.2"></path>
+            </svg>
+            Search
+          </button>
+        </form>
+
+        <button class="btn btn-p hero-search-mobile" type="button">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="7"></circle>
+            <path d="M20 20l-3.2-3.2"></path>
+          </svg>
+          Search
+        </button>
+
+        <div class="hero-chips-viewport">
+          <div class="hero-chips-track">
+            <ul class="hero-chips">
+              <li>
+                <a class="hero-chip" href="#browse">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                  </svg>
+                  Textbooks
+                </a>
+              </li>
+              <li>
+                <a class="hero-chip" href="#browse">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <path d="M14 2v6h6"></path>
+                    <path d="M8 13h8"></path>
+                    <path d="M8 17h5"></path>
+                  </svg>
+                  Lecture notes
+                </a>
+              </li>
+              <li>
+                <a class="hero-chip" href="#browse">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="4" y="2" width="16" height="20" rx="2"></rect>
+                    <path d="M8 6h8"></path>
+                    <path d="M8 10h.01"></path>
+                    <path d="M12 10h.01"></path>
+                    <path d="M16 10h.01"></path>
+                    <path d="M8 14h.01"></path>
+                    <path d="M12 14h.01"></path>
+                    <path d="M16 14h.01"></path>
+                    <path d="M8 18h8"></path>
+                  </svg>
+                  Calculators
+                </a>
+              </li>
+              <li>
+                <a class="hero-chip" href="#browse">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="3" y="4" width="18" height="12" rx="2"></rect>
+                    <path d="M2 20h20"></path>
+                    <path d="M8 20v-4"></path>
+                    <path d="M16 20v-4"></path>
+                  </svg>
+                  Laptops
+                </a>
+              </li>
+              <li>
+                <a class="hero-chip" href="#browse">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M9 21h6"></path>
+                    <path d="M12 13v8"></path>
+                    <path d="M6 13h12l-2-7H8l-2 7z"></path>
+                    <path d="M12 6V3"></path>
+                  </svg>
+                  Desk lamps
+                </a>
+              </li>
+              <li>
+                <a class="hero-chip" href="#browse">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="6.5" cy="16.5" r="3.5"></circle>
+                    <circle cx="17.5" cy="16.5" r="3.5"></circle>
+                    <path d="M6.5 16.5L10 8h5l4 8.5"></path>
+                    <path d="M10 8l-2 4h7"></path>
+                  </svg>
+                  Bikes
+                </a>
+              </li>
+              <li>
+                <a class="hero-chip" href="#browse">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M3 18V8a2 2 0 0 1 2-2h7v12"></path>
+                    <path d="M12 10h7a2 2 0 0 1 2 2v6"></path>
+                    <path d="M2 18h20"></path>
+                    <path d="M5 6V4"></path>
+                  </svg>
+                  Dorm furniture
+                </a>
+              </li>
+            </ul>
+            <ul class="hero-chips hero-chips-clone" aria-hidden="true">
+              <li>
+                <a class="hero-chip" href="#browse" tabindex="-1">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                  </svg>
+                  Textbooks
+                </a>
+              </li>
+              <li>
+                <a class="hero-chip" href="#browse" tabindex="-1">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <path d="M14 2v6h6"></path>
+                    <path d="M8 13h8"></path>
+                    <path d="M8 17h5"></path>
+                  </svg>
+                  Lecture notes
+                </a>
+              </li>
+              <li>
+                <a class="hero-chip" href="#browse" tabindex="-1">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="4" y="2" width="16" height="20" rx="2"></rect>
+                    <path d="M8 6h8"></path>
+                    <path d="M8 10h.01"></path>
+                    <path d="M12 10h.01"></path>
+                    <path d="M16 10h.01"></path>
+                    <path d="M8 14h.01"></path>
+                    <path d="M12 14h.01"></path>
+                    <path d="M16 14h.01"></path>
+                    <path d="M8 18h8"></path>
+                  </svg>
+                  Calculators
+                </a>
+              </li>
+              <li>
+                <a class="hero-chip" href="#browse" tabindex="-1">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="4" width="18" height="12" rx="2"></rect>
+                    <path d="M2 20h20"></path>
+                    <path d="M8 20v-4"></path>
+                    <path d="M16 20v-4"></path>
+                  </svg>
+                  Laptops
+                </a>
+              </li>
+              <li>
+                <a class="hero-chip" href="#browse" tabindex="-1">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 21h6"></path>
+                    <path d="M12 13v8"></path>
+                    <path d="M6 13h12l-2-7H8l-2 7z"></path>
+                    <path d="M12 6V3"></path>
+                  </svg>
+                  Desk lamps
+                </a>
+              </li>
+              <li>
+                <a class="hero-chip" href="#browse" tabindex="-1">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="6.5" cy="16.5" r="3.5"></circle>
+                    <circle cx="17.5" cy="16.5" r="3.5"></circle>
+                    <path d="M6.5 16.5L10 8h5l4 8.5"></path>
+                    <path d="M10 8l-2 4h7"></path>
+                  </svg>
+                  Bikes
+                </a>
+              </li>
+              <li>
+                <a class="hero-chip" href="#browse" tabindex="-1">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 18V8a2 2 0 0 1 2-2h7v12"></path>
+                    <path d="M12 10h7a2 2 0 0 1 2 2v6"></path>
+                    <path d="M2 18h20"></path>
+                    <path d="M5 6V4"></path>
+                  </svg>
+                  Dorm furniture
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
